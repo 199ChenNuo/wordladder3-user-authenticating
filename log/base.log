@@ -1,4 +1,0 @@
-2018-04-25 16:02:03,985 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on DESKTOP-N88H2NI with PID 2280 (E:\GitHub\wordladder2\wordladder2\target\classes started by VM510L in E:\GitHub\wordladder2\wordladder2)
-2018-04-25 16:02:03,998 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
-2018-04-25 16:02:04,001 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
-2018-04-25 16:02:07,389 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 4.117 seconds (JVM running for 6.748)
