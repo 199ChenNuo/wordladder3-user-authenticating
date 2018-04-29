@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>Safe User Page</title>
+</head>
+<body>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+
+<p>Now You are in a safe page, try get a word ladder between two words using URL</p>
+<p>For Example: <br />
+    http://localhost:8080/user/wordladder?wd1=hello&wd2=world
+</p>
+<p>On that page, you will get a word ladder between hello and world.</p>
+    <!--
+    I wanted to generate a html page to show word ladder, but failed...
+
+    <form th:action="@{/user/wordladder}" method="post">
+    <div><label> word 1 : <input type="text" id="wd1" name="word1"/> </label></div>
+    <div><label> word 2 : <input type="text" id="wd2" name="word2"/> </label></div>
+
+    <div><input type="submit" onclick="wordladderURL()" value="submit"/></div>
+    <script>
+        function wordladderURL(){
+            var url;
+            url="wordladder?wd1=";
+            url += document.getElementById("wd1").value;
+            url += "&wd2=";
+            url += document.getElementById("wd2").value;
+            console.log(url);
+            System.out.println(url);
+        }
+    </script>
+
+
+    <p><a href="wordladderURL()" >href</a></p>
+    <div></div>
+
+    </form>
+    -->
+</body>
+</html>
